@@ -8,3 +8,7 @@ spec:
     image: redis:5.0.3-alpine3.9
     ports:
     - containerPort: 6379
+  - name: redis-ui
+    image: rediscommander/redis-commander
+    ports:
+    - containerPort: 8081
